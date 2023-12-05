@@ -28,7 +28,7 @@ public class Persona implements Serializable {
 	@JoinColumn(name="id_eps")
 	private Eps eps;
 	@ManyToOne
-	@JoinColumn(name="id_pais")
+	@JoinColumn(name="id_eps")
 	private Pais pais;
 	@ManyToOne
 	@JoinColumn (name="id_estado")
